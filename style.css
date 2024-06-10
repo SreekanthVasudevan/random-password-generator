@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+}
+.contrainer{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contrainer h2{
+    font-size: 2rem;
+
+}
+.contrainer h2 span{
+    color: green;
+    text-transform: uppercase;
+    
+}
+.display{
+    width: 220px;
+    height: 30px;
+    background-color: #F5F7F8;
+    box-shadow:2px 2px #e5edf1 ;
+    display: flex;
+    align-items: center;
+    margin: 40px 10px;
+    color: black;
+    border-radius: 10px;
+    padding: 8px;
+    justify-content: space-between;
+}
+input{
+    background-color: transparent;
+    height: 20px;
+    width: 180px;
+    margin-right: 5px;
+    border: 0;
+    outline: 0;
+    font-size: 1.1rem;
+}
+.display i{
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition:color 0.25s ;
+}
+.display i:hover{
+    color:green;
+}
+.contrainer button{
+    border: 0;
+    outline: 0;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-weight: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 10px;
+    border-radius: 8px;
+    transition:background-color 0.25s ;
+    cursor: pointer;
+}
+.contrainer button:hover{
+    background-color: #686D76;
+}
+.contrainer button i{
+    margin-left: 5px;
+}
